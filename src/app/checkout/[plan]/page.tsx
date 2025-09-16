@@ -95,7 +95,7 @@ export default function CheckoutPage() {
               </div>
 
               <div className="mb-8">
-                <h4 className="text-lg font-semibold text-white mb-4">What&apos;s Included:</h4>
+                <h4 className="text-lg font-semibold text-white mb-4">What's Included:</h4>
                 <ul className="space-y-3">
                   {planConfig.features.slice(0, 6).map((feature, index) => (
                     <li key={index} className="flex items-start space-x-3">

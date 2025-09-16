@@ -17,7 +17,7 @@ export default function HomePage() {
     {
       icon: <Dumbbell className="w-8 h-8 text-red-500" />,
       title: 'Elite Training Programs',
-      description: 'Access cutting-edge workout routines designed by professional trainers. From strength building to HIIT, we&apos;ve got programs that deliver real results.'
+      description: "Access cutting-edge workout routines designed by professional trainers. From strength building to HIIT, we've got programs that deliver real results."
     },
     {
       icon: <Target className="w-8 h-8 text-red-500" />,
@@ -254,7 +254,7 @@ export default function HomePage() {
           </h2>
           <p className="text-xl text-red-100 mb-8">
             Join ForgeFit Club and get instant access to everything you need to build
-            the body and confidence you&apos;ve always wanted.
+            the body and confidence you've always wanted.
           </p>
           <Link
             href="/pricing"

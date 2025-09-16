@@ -15,16 +15,16 @@ export default function PricingPage() {
 
   const faqs = [
     {
-      question: 'What&apos;s included in ForgeFit Pro?',
+      question: "What's included in ForgeFit Pro?",
       answer: 'You get unlimited access to all workout programs, personalized nutrition plans, 24/7 community support, live coaching sessions, progress tracking, mobile app access, and priority support.'
     },
     {
       question: 'Can I cancel anytime?',
-      answer: 'Yes, you can cancel your subscription at any time. You&apos;ll continue to have access until the end of your billing period.'
+      answer: "Yes, you can cancel your subscription at any time. You'll continue to have access until the end of your billing period."
     },
     {
       question: 'Is there a money-back guarantee?',
-      answer: 'We offer a 30-day money-back guarantee. If you&apos;re not satisfied with your results, we&apos;ll refund your payment.'
+      answer: "We offer a 30-day money-back guarantee. If you're not satisfied with your results, we'll refund your payment."
     },
     {
       question: 'Do you offer beginner programs?',
@@ -42,7 +42,7 @@ export default function PricingPage() {
           </h1>
           <p className="text-xl text-gray-400 mb-8 max-w-2xl mx-auto">
             Join ForgeFit Club and get instant access to everything you need to build
-            the body and confidence you&apos;ve always wanted.
+            the body and confidence you've always wanted.
           </p>
           <div className="flex items-center justify-center space-x-1 mb-8">
             {[...Array(5)].map((_, i) => (
@@ -97,7 +97,7 @@ export default function PricingPage() {
                   <div>
                     <h3 className="text-xl font-semibold text-white mb-4 flex items-center">
                       <Zap className="w-5 h-5 text-red-500 mr-2" />
-                      What&apos;s Included
+                      What's Included
                     </h3>
                     <ul className="space-y-3">
                       {planConfig.features.map((feature, index) => (
