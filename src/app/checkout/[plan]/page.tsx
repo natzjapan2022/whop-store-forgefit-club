@@ -220,6 +220,21 @@ export default function CheckoutPage() {
             </div>
           </div>
         </div>
+
+        {/* Direct Whop purchase link */}
+        <div className="mt-12 text-center border-t border-gray-800 pt-8">
+          <p className="text-sm text-gray-400 mb-2">
+            Or you can purchase directly on Whop:
+          </p>
+          <Link
+            href="https://whop.com/forgefit-club/forgefit-elite-membership/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-red-400 hover:text-red-300 underline text-sm transition-colors"
+          >
+            Purchase on Whop →
+          </Link>
+        </div>
       </div>
     </div>
   )
