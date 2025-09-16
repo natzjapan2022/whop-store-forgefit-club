@@ -20,11 +20,11 @@ export default function AdminLoginPage() {
     setIsLoading(true)
     setError('')
 
-    // Check credentials against environment variables
-    const adminUsername = process.env.NEXT_PUBLIC_ADMIN_USERNAME
-    const adminPassword = process.env.NEXT_PUBLIC_ADMIN_PASSWORD
+    // Check credentials (hardcoded for reliability)
+    const validUsername = 'whop_admin_2024'
+    const validPassword = 'WhopSecure2024Admin'
 
-    if (formData.username === adminUsername && formData.password === adminPassword) {
+    if (formData.username === validUsername && formData.password === validPassword) {
       // Set session in localStorage with 24-hour expiration
       const session = {
         authenticated: true,
